@@ -1,0 +1,41 @@
+[0.515s] Invoking command in '/home/ubuntu-ros/ros2_ws/src/task_2': AMENT_PREFIX_PATH=/home/ubuntu-ros/ros2_ws/install/task_2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu-ros/ros2_ws/install/task_2_interfaces LD_LIBRARY_PATH=/home/ubuntu-ros/ros2_ws/install/task_2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu-ros/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages:/home/ubuntu-ros/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /home/ubuntu-ros/ros2_ws/build/task_2/build install --record /home/ubuntu-ros/ros2_ws/build/task_2/install.log --single-version-externally-managed install_data
+[0.709s] running egg_info
+[0.710s] creating ../../build/task_2/task_2.egg-info
+[0.710s] writing ../../build/task_2/task_2.egg-info/PKG-INFO
+[0.710s] writing dependency_links to ../../build/task_2/task_2.egg-info/dependency_links.txt
+[0.711s] writing entry points to ../../build/task_2/task_2.egg-info/entry_points.txt
+[0.711s] writing requirements to ../../build/task_2/task_2.egg-info/requires.txt
+[0.711s] writing top-level names to ../../build/task_2/task_2.egg-info/top_level.txt
+[0.711s] writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.713s] reading manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.713s] writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.713s] running build
+[0.713s] running build_py
+[0.714s] creating /home/ubuntu-ros/ros2_ws/build/task_2/build
+[0.714s] creating /home/ubuntu-ros/ros2_ws/build/task_2/build/lib
+[0.714s] creating /home/ubuntu-ros/ros2_ws/build/task_2/build/lib/task_2
+[0.714s] copying task_2/subscriber_node.py -> /home/ubuntu-ros/ros2_ws/build/task_2/build/lib/task_2
+[0.714s] copying task_2/__init__.py -> /home/ubuntu-ros/ros2_ws/build/task_2/build/lib/task_2
+[0.714s] copying task_2/publisher_node.py -> /home/ubuntu-ros/ros2_ws/build/task_2/build/lib/task_2
+[0.714s] running install
+[0.715s] running install_lib
+[0.715s] creating /home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.715s] copying /home/ubuntu-ros/ros2_ws/build/task_2/build/lib/task_2/subscriber_node.py -> /home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.716s] copying /home/ubuntu-ros/ros2_ws/build/task_2/build/lib/task_2/__init__.py -> /home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.716s] copying /home/ubuntu-ros/ros2_ws/build/task_2/build/lib/task_2/publisher_node.py -> /home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.716s] byte-compiling /home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/subscriber_node.py to subscriber_node.cpython-310.pyc
+[0.717s] byte-compiling /home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/__init__.py to __init__.cpython-310.pyc
+[0.717s] byte-compiling /home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/publisher_node.py to publisher_node.cpython-310.pyc
+[0.717s] running install_data
+[0.717s] creating /home/ubuntu-ros/ros2_ws/install/task_2/share/ament_index
+[0.717s] creating /home/ubuntu-ros/ros2_ws/install/task_2/share/ament_index/resource_index
+[0.718s] creating /home/ubuntu-ros/ros2_ws/install/task_2/share/ament_index/resource_index/packages
+[0.718s] copying resource/task_2 -> /home/ubuntu-ros/ros2_ws/install/task_2/share/ament_index/resource_index/packages
+[0.718s] copying package.xml -> /home/ubuntu-ros/ros2_ws/install/task_2/share/task_2
+[0.718s] running install_egg_info
+[0.719s] Copying ../../build/task_2/task_2.egg-info to /home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info
+[0.720s] running install_scripts
+[0.739s] Installing publisher_node script to /home/ubuntu-ros/ros2_ws/install/task_2/lib/task_2
+[0.740s] Installing subscriber_node script to /home/ubuntu-ros/ros2_ws/install/task_2/lib/task_2
+[0.740s] writing list of installed files to '/home/ubuntu-ros/ros2_ws/build/task_2/install.log'
+[0.766s] Invoked command in '/home/ubuntu-ros/ros2_ws/src/task_2' returned '0': AMENT_PREFIX_PATH=/home/ubuntu-ros/ros2_ws/install/task_2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu-ros/ros2_ws/install/task_2_interfaces LD_LIBRARY_PATH=/home/ubuntu-ros/ros2_ws/install/task_2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu-ros/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages:/home/ubuntu-ros/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /home/ubuntu-ros/ros2_ws/build/task_2/build install --record /home/ubuntu-ros/ros2_ws/build/task_2/install.log --single-version-externally-managed install_data

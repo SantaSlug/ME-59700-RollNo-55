@@ -1,0 +1,49 @@
+[0.618s] Invoking command in '/home/ubuntu-ros/ros2_ws/build/task_2_interfaces': /usr/bin/cmake /home/ubuntu-ros/ros2_ws/src/task_2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu-ros/ros2_ws/install/task_2_interfaces
+[0.832s] -- The C compiler identification is GNU 11.4.0
+[1.152s] -- The CXX compiler identification is GNU 11.4.0
+[1.188s] -- Detecting C compiler ABI info
+[1.288s] -- Detecting C compiler ABI info - done
+[1.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.302s] -- Detecting C compile features
+[1.303s] -- Detecting C compile features - done
+[1.309s] -- Detecting CXX compiler ABI info
+[1.420s] -- Detecting CXX compiler ABI info - done
+[1.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.437s] -- Detecting CXX compile features
+[1.438s] -- Detecting CXX compile features - done
+[1.446s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.673s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.815s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.836s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.904s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.962s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.037s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.092s] Error parsing '/home/ubuntu-ros/ros2_ws/src/task_2_interfaces/package.xml':
+[2.146s] Traceback (most recent call last):
+[2.146s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[2.146s]     main()
+[2.146s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[2.146s]     raise e
+[2.146s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.146s]     package = parse_package_string(
+[2.146s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[2.148s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[2.148s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ubuntu-ros/ros2_ws/src/task_2_interfaces/package.xml':
+[2.148s] Error(s):
+[2.148s] - The generic dependency on 'rosidl_default_runtime' is redundant with: exec_depend
+[2.170s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.170s]   execute_process(/usr/bin/python3
+[2.170s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.170s]   /home/ubuntu-ros/ros2_ws/src/task_2_interfaces/package.xml
+[2.170s]   /home/ubuntu-ros/ros2_ws/build/task_2_interfaces/ament_cmake_core/package.cmake)
+[2.170s]   returned error code 1
+[2.170s] Call Stack (most recent call first):
+[2.170s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.170s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.170s]   CMakeLists.txt:22 (ament_lint_auto_find_test_dependencies)
+[2.170s] 
+[2.170s] [0m
+[2.170s] -- Configuring incomplete, errors occurred!
+[2.170s] See also "/home/ubuntu-ros/ros2_ws/build/task_2_interfaces/CMakeFiles/CMakeOutput.log".
+[2.179s] Invoked command in '/home/ubuntu-ros/ros2_ws/build/task_2_interfaces' returned '1': /usr/bin/cmake /home/ubuntu-ros/ros2_ws/src/task_2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu-ros/ros2_ws/install/task_2_interfaces

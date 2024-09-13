@@ -1,0 +1,4 @@
+[console_scripts]
+listner = task_1.time_subscriber:main
+talker = task_1.time_publisher:main
+

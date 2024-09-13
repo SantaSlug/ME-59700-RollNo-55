@@ -1,0 +1,6 @@
+[console_scripts]
+publisher_node = task_2.publisher_node:main
+service_client_node = task_2.service_client_node:main
+service_server_node = task_2.service_server_node:main
+subscriber_node = task_2.subscriber_node:main
+

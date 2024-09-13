@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000530] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000546] (-) JobUnselected: {'identifier': 'task_1'}
+[0.000577] (-) JobUnselected: {'identifier': 'task_2_interfaces'}
+[0.000632] (task_2) JobQueued: {'identifier': 'task_2', 'dependencies': OrderedDict([('task_2_interfaces', '/home/ubuntu-ros/ros2_ws/src/install/task_2_interfaces')])}
+[0.000667] (task_2) JobStarted: {'identifier': 'task_2'}
+[0.005609] (task_2) JobEnded: {'identifier': 'task_2', 'rc': 1}
+[0.016291] (-) EventReactorShutdown: {}

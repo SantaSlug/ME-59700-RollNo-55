@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu-ros/ros2_ws/build/task_2_interfaces': /usr/bin/cmake /home/ubuntu-ros/ros2_ws/src/task_2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu-ros/ros2_ws/install/task_2_interfaces
+Invoked command in '/home/ubuntu-ros/ros2_ws/build/task_2_interfaces' returned '1': /usr/bin/cmake /home/ubuntu-ros/ros2_ws/src/task_2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu-ros/ros2_ws/install/task_2_interfaces

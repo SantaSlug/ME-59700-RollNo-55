@@ -1,0 +1,24 @@
+[0.846s] Invoking command in '/home/ubuntu-ros/ros2_ws/src/task_2': PYTHONPATH=/home/ubuntu-ros/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /home/ubuntu-ros/ros2_ws/build/task_2/build install --record /home/ubuntu-ros/ros2_ws/build/task_2/install.log --single-version-externally-managed install_data
+[1.069s] running egg_info
+[1.070s] writing ../../build/task_2/task_2.egg-info/PKG-INFO
+[1.070s] writing dependency_links to ../../build/task_2/task_2.egg-info/dependency_links.txt
+[1.071s] writing entry points to ../../build/task_2/task_2.egg-info/entry_points.txt
+[1.071s] writing requirements to ../../build/task_2/task_2.egg-info/requires.txt
+[1.071s] writing top-level names to ../../build/task_2/task_2.egg-info/top_level.txt
+[1.073s] reading manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[1.073s] writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[1.073s] running build
+[1.074s] running build_py
+[1.074s] running install
+[1.074s] running install_lib
+[1.076s] running install_data
+[1.076s] running install_egg_info
+[1.077s] removing '/home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.078s] Copying ../../build/task_2/task_2.egg-info to /home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info
+[1.078s] running install_scripts
+[1.099s] Installing publisher_node script to /home/ubuntu-ros/ros2_ws/install/task_2/lib/task_2
+[1.100s] Installing service_client_node script to /home/ubuntu-ros/ros2_ws/install/task_2/lib/task_2
+[1.100s] Installing service_server_node script to /home/ubuntu-ros/ros2_ws/install/task_2/lib/task_2
+[1.100s] Installing subscriber_node script to /home/ubuntu-ros/ros2_ws/install/task_2/lib/task_2
+[1.100s] writing list of installed files to '/home/ubuntu-ros/ros2_ws/build/task_2/install.log'
+[1.122s] Invoked command in '/home/ubuntu-ros/ros2_ws/src/task_2' returned '0': PYTHONPATH=/home/ubuntu-ros/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu-ros/ros2_ws/install/task_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /home/ubuntu-ros/ros2_ws/build/task_2/build install --record /home/ubuntu-ros/ros2_ws/build/task_2/install.log --single-version-externally-managed install_data

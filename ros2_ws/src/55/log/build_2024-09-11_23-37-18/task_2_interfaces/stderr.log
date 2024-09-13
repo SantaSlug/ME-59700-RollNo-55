@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:674 (file):
+  file INSTALL cannot find
+  "/home/ubuntu-ros/ros2_ws/src/task_2_interfaces/launch": No such file or
+  directory.
+
+[0m

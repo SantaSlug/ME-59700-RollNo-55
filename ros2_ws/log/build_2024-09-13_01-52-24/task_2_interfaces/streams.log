@@ -1,0 +1,5 @@
+[0.013s] Invoking command in '/home/ubuntu-ros/ros2_ws/build/task_2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu-ros/ros2_ws/build/task_2_interfaces -- -j6 -l6
+[0.034s] [0mCMake Error: The source directory "/home/ubuntu-ros/ros2_ws/src/task_2_interfaces" does not exist.
+[0.034s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.035s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.225s] Invoked command in '/home/ubuntu-ros/ros2_ws/build/task_2_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu-ros/ros2_ws/build/task_2_interfaces -- -j6 -l6
